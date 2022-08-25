@@ -10,7 +10,7 @@ stages:
   jobs:
   - job: build
     displayName: Build
-    container: mcr.microsoft.com/dotnet/sdk:6:0
+    container: mcr.microsoft.com/dotnet/sdk:6.0
     steps:
     - script: dotnet --version
       displayName: Check .Net version
